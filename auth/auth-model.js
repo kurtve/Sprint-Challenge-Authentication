@@ -49,17 +49,10 @@ async function isValidUser(user) {
 
 // check if a token is valid
 function decodeToken(token) {
-  console.log('inside decodeToken');
-  console.log(token);
-
   try {
     const decoded = jwt.verify(token, secrets.JWT_SECRET);
-    console.log(decoded);
-
     return decoded;
   } catch (err) {
-    console.log('an error occurred while decoding the token');
-
     return null;
   }
 }
