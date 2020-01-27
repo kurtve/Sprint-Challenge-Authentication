@@ -56,9 +56,10 @@ The bcrypt hash function lets us specify the number of hashing rounds to apply t
 - [ ] What are the three parts of the JSON Web Token?
 
 A JSON Web Token contains the following components:
-    - [ ] The header, which specifies the token type and the encryption algorithm used
-    - [ ] The payload, which contains a subject and developer-specified data such as the username and expiration date
-    - [ ] The signature, which allows us to verify that the token has not been altered in any way
+
+    1. The header, which specifies the token type and the encryption algorithm used
+    2. The payload, which contains a subject and developer-specified data such as the username and expiration date
+    3. The signature, which allows us to verify that the token has not been altered in any way
 
 
 
